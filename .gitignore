@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+models/*.tflite
+models/*_labels.txt
+data/
+.DS_Store
