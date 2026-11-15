@@ -1,4 +1,9 @@
-"""Camera frame source: Pi Camera Module on a Raspberry Pi, USB webcam elsewhere."""
+"""Camera frame source: Pi Camera Module on a Raspberry Pi, USB webcam elsewhere.
+
+Tries the Pi Camera Module first (via picamera2). If that's not available at
+all, OR if it's installed but fails to find actual camera hardware (e.g. a
+damaged CSI port/cable), falls back to a USB webcam via OpenCV.
+"""
 from __future__ import annotations
 
 from PIL import Image
@@ -17,15 +22,16 @@ class Camera:
             from picamera2 import Picamera2
 
             self._picam2 = Picamera2()
-            config = self._picam2.create_still_configuration(
-                main={"size": self._resolution, "format": "RGB888"}
+            config = self._picam2.create_preview_configuration(
+                main={"size": self._resolution, "format": "BGR888"}
             )
             self._picam2.configure(config)
             self._picam2.start()
             self._backend = "picamera2"
             return
-        except ImportError:
-            pass
+        except Exception as e:
+            print(f"[camera] Pi Camera Module unavailable ({type(e).__name__}: {e}), "
+                  f"falling back to USB webcam...")
 
         import cv2
 
@@ -33,6 +39,7 @@ class Camera:
         if not self._cv_capture.isOpened():
             raise RuntimeError("No camera available (tried Pi Camera and USB webcam)")
         self._backend = "opencv"
+        print("[camera] Using USB webcam.")
 
     def capture(self) -> Image.Image:
         if self._backend == "picamera2":

@@ -7,10 +7,12 @@ import numpy as np
 from PIL import Image
 
 try:
-    from tflite_runtime.interpreter import Interpreter
-except ImportError:  # dev machines without tflite-runtime installed
-    from tensorflow.lite.python.interpreter import Interpreter
-
+     from tflite_runtime.interpreter import Interpreter
+except ImportError:
+    try:
+        from ai_edge_litert.interpreter import Interpreter
+    except ImportError:  # dev machines without either installed
+        from tensorflow.lite.python.interpreter import Interpreter
 
 class TrashClassifier:
     def __init__(self, model_path: str | Path, labels_path: str | Path, top_k: int = 1):
