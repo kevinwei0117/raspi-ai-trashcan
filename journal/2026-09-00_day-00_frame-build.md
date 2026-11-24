@@ -40,9 +40,36 @@ All parts printed in **PLA** (the only filament I had).
 
 | Part | Version 1 | Version 2 | Final |
 |---|---|---|---|
-| Battery holder | **Too small**, batteries didn't fit | Resized to the measured battery pack | ✅ fits |
-| Servo tray plate (holds the item, tilts to drop it) | **Too thin**: flexed under the servo | **Snapped** | Redesigned stronger *(details to fill in)* |
-| Servo platform (mounts the servo on top of the can) | Designed and printed | | ✅ works |
+| Battery holder | `charging box`: **too small**, batteries didn't fit | `big charger box`: resized to the measured battery packs | ✅ fits |
+| Servo tray plate (holds the item, tilts to drop it) | **Too thin**: flexed under the servo | `SERVO TRAY`: **snapped** | ✅ `SERVO plate 3.0` |
+| Servo platform (mounts the servo on top of the can) | `servo platform` | | ✅ works |
+
+**How the final tray attaches to the servo:**
+- `servo trey bottom plate` is a **thick block** under the tray with **2 large holes**.
+- I put **threaded inserts** into those holes and **screwed the plate onto the servo**, so the tray stays firmly attached instead of relying on thin plastic.
+- That spreads the force from the servo through a solid block, instead of concentrating it where the thin plate snapped.
+
+### My Fusion 360 designs (all 8 parts for the bin)
+
+| Fusion file | What it does on the bin |
+|---|---|
+| `Greenguard trashcan` | Main project file. **GreenGuard** is the project's name. |
+| `charging box` | Battery/charger holder, version 1 (too small) |
+| `big charger box` | Battery/charger holder, version 2 (final) |
+| `servo platform` | Square plate with 4 corner screw holes that mounts the servo on top of the trash can |
+| `servo trey bottom plate` | Thick block with threaded inserts that screws onto the servo and holds the tray |
+| `SERVO TRAY` | Tray, earlier version (snapped) |
+| `SERVO plate 3.0` | **Final tray:** round with a raised lip and curved cut-outs *(purpose of the cut-outs to fill in)* |
+| `screen box underpart` | Frame with 4 screw holes that holds the screen |
+
+**Screenshots (from Fusion 360):**
+
+| | |
+|---|---|
+| ![Final tray: SERVO plate 3.0](img/day00/servo-plate-3.0-final.webp) **Final tray: `SERVO plate 3.0`** | ![Earlier tray: SERVO TRAY](img/day00/servo-tray-v2.webp) **Earlier tray: `SERVO TRAY`** |
+| ![Bottom plate with insert holes](img/day00/servo-tray-bottom-plate.webp) **`servo trey bottom plate`** (holes for threaded inserts) | ![Servo platform](img/day00/servo-platform.webp) **`servo platform`** |
+| ![Charging box v1](img/day00/charging-box-v1.webp) **`charging box`** (v1, too small) | ![Big charger box v2](img/day00/big-charger-box-v2.webp) **`big charger box`** (v2) |
+| ![Screen box underpart](img/day00/screen-box-underpart.webp) **`screen box underpart`** | |
 
 **Why the plate failed:**
 - The tray plate is attached to a servo that moves fast and stops suddenly. That puts a lot of **stress on the plate**, especially around where it attaches.
@@ -66,7 +93,8 @@ All parts printed in **PLA** (the only filament I had).
 *(The Raspberry Pi, camera, and the Ender 3 used for the frame were things I already had, or details to confirm.)*
 
 ### Evidence to add
-- [ ] **Fusion 360 version history** screenshots: the battery holder and servo plate, showing each version's date
+- [x] Fusion 360 design screenshots (added above)
+- [ ] **Fusion 360 version history** screenshots with dates: charging box, big charger box, SERVO plate 3.0
 - [ ] Slicer / print file dates
 - [ ] Phone photos of the build, the snapped plate, and the frame going up
 - [ ] Photo of the finished bin (I have one from Nov 14: the frame, screen, tray, battery box, and "TRASH" / "RECYCLING ONLY" signs)
