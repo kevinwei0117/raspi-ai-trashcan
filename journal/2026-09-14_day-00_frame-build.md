@@ -3,12 +3,12 @@
 **Author:** Kevin Wei
 **Repository:** https://github.com/kevinwei0117/raspi-ai-trashcan (private)
 
-> Written up in November 2026 from my own memory. **Exact dates still to confirm** from
-> Fusion 360 version history, slicer files and phone photos. Until then, dates are approximate.
+> Written up in November 2026 from my own memory and my Fusion 360 files. **Dates are estimates**
+> (I remember building the frame about a week before the conference on Sept 22). No file has exact dates.
 
 ---
 
-## Day 0: Building the physical bin (about September 14–16, 2026, "a week before the conference")
+## Day 0: Building the physical bin (estimated September 14–16, 2026, about a week before the conference)
 ### Frame, divider, and my first 3D-printed parts
 
 ### Short version (for the journal)
@@ -24,18 +24,18 @@
 
 ---
 
-### Day 0a: Frame and divider
+### Day 0a (est. Mon, Sep 14): Frame and divider
 - **Trash can:** used **8-gallon** can, bought from someone for **$30**.
 - **Frame:** I **disassembled an old Ender 3 3D printer** and reused its **aluminum extrusion frame** to build a structure over and around the can (to hold the camera, screen and electronics above the tray).
   - **Why:** reusing parts saved money and gave me a strong, adjustable metal frame. Reusing old hardware also fits a recycling project.
 - **Divider:** a wall down the middle of the can, splitting it into a **Recycle** side and a **Trash** side. **My dad helped me make the divider.**
 
-### Day 0b: First 3D-printed parts + screen
+### Day 0b (est. Tue, Sep 15): First 3D-printed parts + screen
 - Started designing 3D-printed parts in **Fusion 360** to mount onto the trash can and frame.
 - First part: **holders for the battery packs** that power the servos.
 - Got the **screen working**, so it shows the live camera view (and later the AI's answer).
 
-### Day 0c: Print, fail, redesign, reprint
+### Day 0c (est. Wed, Sep 16): Print, fail, redesign, reprint
 All parts printed in **PLA** (the only filament I had).
 
 | Part | Version 1 | Version 2 | Final |
@@ -59,7 +59,7 @@ All parts printed in **PLA** (the only filament I had).
 | `servo platform` | Square plate with 4 corner screw holes that mounts the servo on top of the trash can |
 | `servo trey bottom plate` | Thick block with threaded inserts that screws onto the servo and holds the tray |
 | `SERVO TRAY` | Tray, earlier version (snapped) |
-| `SERVO plate 3.0` | **Final tray:** round with a raised lip and curved cut-outs *(purpose of the cut-outs to fill in)* |
+| `SERVO plate 3.0` | **Final tray:** round with a raised lip. The **curved cut-outs** are on the sides it tips toward, so when the plate tilts, the item **slides out more easily** instead of catching on the lip. |
 | `screen box underpart` | Frame with 4 screw holes that holds the screen |
 
 **Screenshots (from Fusion 360):**
@@ -94,7 +94,6 @@ All parts printed in **PLA** (the only filament I had).
 
 ### Evidence to add
 - [x] Fusion 360 design screenshots (added above)
-- [ ] **Fusion 360 version history** screenshots with dates: charging box, big charger box, SERVO plate 3.0
 - [ ] Slicer / print file dates
 - [ ] Phone photos of the build, the snapped plate, and the frame going up
 - [ ] Photo of the finished bin (I have one from Nov 14: the frame, screen, tray, battery box, and "TRASH" / "RECYCLING ONLY" signs)
