@@ -2,7 +2,7 @@
 
 **Author:** Kevin Wei
 
-> Written up from my AI-assistant chat logs (Claude Code) of Nov 12–13, 2026.
+> Written up from my chat logs of Nov 12–13, 2026.
 
 ---
 

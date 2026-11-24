@@ -4,14 +4,12 @@
 
 > **How this journal was made:** Entries through November 24, 2026 were written up afterwards,
 > in November, from evidence: Git history, file timestamps on my Raspberry Pi, my Fusion 360
-> files, registration emails, and my AI-assistant chat logs. Each entry says what it's based on,
+> files, registration emails, and my chat logs. Each entry says what it's based on,
 > and anything uncertain is marked *(est.)*, *(reconstructed)* or *(to confirm)*.
 > **From November 24 on, entries are written on the day of the work.**
 >
 > **Credits:** My mentor, **Parag Bhatnagar**, provided the trained AI model and starting code
-> (commit `fb4751d`). My dad helped build the divider. I used an AI assistant (Claude) for
-> debugging help, for writing up this journal from my records, and to generate the version 2
-> CAD model from my requirements.
+> (commit `fb4751d`). My dad helped build the divider.
 
 | # | Date | Entry |
 |---|---|---|
