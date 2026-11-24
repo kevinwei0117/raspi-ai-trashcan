@@ -2,11 +2,11 @@
 
 **Author:** Kevin Wei
 
-> Written up from my Git history and chat logs, Nov 15–24, 2026.
+> Written up from my Git history and chat logs, Nov 15–23, 2026.
 
 ---
 
-## Day 10: November 15–24, 2026
+## Day 10: November 15–23, 2026
 ### Documenting the project, finding the real timeline, and choosing a 3D printer
 
 ### Short version (for the journal)

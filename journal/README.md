@@ -2,7 +2,7 @@
 
 **Kevin Wei** · AI smart recycling bin (Raspberry Pi 4, camera, AI classifier, servos)
 
-> **How this journal was made:** Entries through November 24, 2026 were written up afterwards,
+> **How this journal was made:** Entries through November 23, 2026 were written up afterwards,
 > in November, from evidence: Git history, file timestamps on my Raspberry Pi, my Fusion 360
 > files, registration emails, and my chat logs. Each entry says what it's based on,
 > and anything uncertain is marked *(est.)*, *(reconstructed)* or *(to confirm)*.
@@ -23,4 +23,5 @@
 | 7 | Nov 12–13 | [Project review and risks](2026-11-12_day-07_project-review.md) |
 | 8 | Nov 14 | [Designing version 2 in Onshape (rev A → C)](2026-11-14_day-08_v2-design.md) |
 | 9 | Nov 14 | [Cost redesign (~$1,400 → ~$230/bin) and first GitHub backup](2026-11-14_day-09_cost-redesign-and-backup.md) |
-| 10 | Nov 15–24 | [Documentation, real timeline, 3D printer research](2026-11-21_day-10_documentation-and-tools.md) |
+| 10 | Nov 15–23 | [Documentation, real timeline, 3D printer research](2026-11-21_day-10_documentation-and-tools.md) |
+| 11 | Nov 24 | [What my bin's own records revealed](2026-11-24_day-11_reading-the-pi-records.md) |
